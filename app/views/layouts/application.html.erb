@@ -1,45 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Clubpulsarracing</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
   </head>
 
   <body>
 
-    <div class="home-wrapper">
-      <header>
-        <div class="container">
-            <%= image_tag("logo.png")%> Club Pulsar Racing Medellin 
-          <nav>
-            <a href="#home" class="active">HOME</a>
-            <a href="#imagenes">IMAGENES</a>
-            <a href="#videos">VIDEOS</a>
-            <a href="#contacto">CONTACTO</a>
-          </nav>
-        </div>
-      </header>
-      
-      <section id="home" class="container">
-        <h1>VENCE TUS <strong>MIEDOS</strong> Y SAL A <strong>RECORRER</strong> TU CAMÍNO</h1>
-        <div class="divider"></div>
-        <p>Club Pulsar Racing Medellin, no solo un club, una Familia</p>
-        <div class="social">
-          <a href=""><i class="fab fa-facebook"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-github"></i></a>
-        </div>
-      </section>
-    </div>
-         
+
+  
     <%= yield %>
     <footer>
             @ 2018 <strong> Club Pulsar Racing Medellin,</strong> Todos los Derechos Reservados
